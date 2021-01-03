@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-               BuildableName = "Res Control.app"
-               BlueprintName = "Res Control"
+               BlueprintIdentifier = "CDE86D0025A26EDC007F7D28"
+               BuildableName = "Res Control Launcher.app"
+               BlueprintName = "Res Control Launcher"
                ReferencedContainer = "container:Res Control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDC8B7DF25A164E2004D11F9"
-               BuildableName = "Res SwitcherTests.xctest"
-               BlueprintName = "Res SwitcherTests"
-               ReferencedContainer = "container:Res Control.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDC8B7EA25A164E2004D11F9"
-               BuildableName = "Res SwitcherUITests.xctest"
-               BlueprintName = "Res SwitcherUITests"
-               ReferencedContainer = "container:Res Control.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -64,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-            BuildableName = "Res Control.app"
-            BlueprintName = "Res Control"
+            BlueprintIdentifier = "CDE86D0025A26EDC007F7D28"
+            BuildableName = "Res Control Launcher.app"
+            BlueprintName = "Res Control Launcher"
             ReferencedContainer = "container:Res Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-            BuildableName = "Res Control.app"
-            BlueprintName = "Res Control"
+            BlueprintIdentifier = "CDE86D0025A26EDC007F7D28"
+            BuildableName = "Res Control Launcher.app"
+            BlueprintName = "Res Control Launcher"
             ReferencedContainer = "container:Res Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

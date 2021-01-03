@@ -15,6 +15,12 @@
 		CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */; };
 		CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D325A164E1004D11F9 /* ViewController.swift */; };
 		CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D525A164E2004D11F9 /* Assets.xcassets */; };
+		CDE86D0625A26EDD007F7D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE86D0525A26EDD007F7D28 /* Assets.xcassets */; };
+		CDE86D0925A26EDD007F7D28 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE86D0725A26EDD007F7D28 /* MainMenu.xib */; };
+		CDE86D1225A26F04007F7D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE86D1125A26F04007F7D28 /* AppDelegate.swift */; };
+		CDE86D1925A26F89007F7D28 /* Res Control Launcher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDE86D1D25A26FA1007F7D28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE86D1C25A26FA1007F7D28 /* Cocoa.framework */; };
+		CDE86D1F25A26FA8007F7D28 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE86D1E25A26FA8007F7D28 /* ServiceManagement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +32,16 @@
 			files = (
 			);
 			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE86D1525A26F4C007F7D28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				CDE86D1925A26F89007F7D28 /* Res Control Launcher.app in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -45,10 +61,27 @@
 		CDC8B7D525A164E2004D11F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC8B7DA25A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC8B7DB25A164E2004D11F9 /* Res_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Control.entitlements; sourceTree = "<group>"; };
+		CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Control Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE86D0525A26EDD007F7D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE86D0825A26EDD007F7D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDE86D0A25A26EDD007F7D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE86D0B25A26EDD007F7D28 /* Res_Control_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Control_Launcher.entitlements; sourceTree = "<group>"; };
+		CDE86D1125A26F04007F7D28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE86D1C25A26FA1007F7D28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CDE86D1E25A26FA8007F7D28 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CDC8B7CB25A164E1004D11F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE86D1D25A26FA1007F7D28 /* Cocoa.framework in Frameworks */,
+				CDE86D1F25A26FA8007F7D28 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE86CFE25A26EDC007F7D28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,6 +94,8 @@
 		CD98FA1525A1A7FE0073E222 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDE86D1E25A26FA8007F7D28 /* ServiceManagement.framework */,
+				CDE86D1C25A26FA1007F7D28 /* Cocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC8B7D025A164E1004D11F9 /* Res Control */,
+				CDE86D0225A26EDC007F7D28 /* Res Control Launcher */,
 				CDC8B7CF25A164E1004D11F9 /* Products */,
 				CD98FA1525A1A7FE0073E222 /* Frameworks */,
 			);
@@ -78,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC8B7CE25A164E1004D11F9 /* Res Control.app */,
+				CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +139,18 @@
 			path = "Res Control";
 			sourceTree = "<group>";
 		};
+		CDE86D0225A26EDC007F7D28 /* Res Control Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				CDE86D1125A26F04007F7D28 /* AppDelegate.swift */,
+				CDE86D0525A26EDD007F7D28 /* Assets.xcassets */,
+				CDE86D0725A26EDD007F7D28 /* MainMenu.xib */,
+				CDE86D0A25A26EDD007F7D28 /* Info.plist */,
+				CDE86D0B25A26EDD007F7D28 /* Res_Control_Launcher.entitlements */,
+			);
+			path = "Res Control Launcher";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +162,7 @@
 				CDC8B7CB25A164E1004D11F9 /* Frameworks */,
 				CDC8B7CC25A164E1004D11F9 /* Resources */,
 				CD98FA5425A1A9640073E222 /* Embed XPC Services */,
+				CDE86D1525A26F4C007F7D28 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -121,6 +171,23 @@
 			name = "Res Control";
 			productName = "Res Switcher";
 			productReference = CDC8B7CE25A164E1004D11F9 /* Res Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE86D0025A26EDC007F7D28 /* Res Control Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE86D0E25A26EDD007F7D28 /* Build configuration list for PBXNativeTarget "Res Control Launcher" */;
+			buildPhases = (
+				CDE86CFD25A26EDC007F7D28 /* Sources */,
+				CDE86CFE25A26EDC007F7D28 /* Frameworks */,
+				CDE86CFF25A26EDC007F7D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Res Control Launcher";
+			productName = "Res Control Launcher";
+			productReference = CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,6 +200,10 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					CDC8B7CD25A164E1004D11F9 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					CDE86D0025A26EDC007F7D28 = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1230;
 					};
@@ -152,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				CDC8B7CD25A164E1004D11F9 /* Res Control */,
+				CDE86D0025A26EDC007F7D28 /* Res Control Launcher */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +235,15 @@
 			files = (
 				CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */,
 				CD98FA0425A1A7160073E222 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE86CFF25A26EDC007F7D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE86D0625A26EDD007F7D28 /* Assets.xcassets in Resources */,
+				CDE86D0925A26EDD007F7D28 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +263,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDE86CFD25A26EDC007F7D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE86D1225A26F04007F7D28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE86D0725A26EDD007F7D28 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE86D0825A26EDD007F7D28 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CDC8B7F225A164E2004D11F9 /* Debug */ = {
@@ -331,7 +431,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Res Control/Res_Control.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3K3569JFML;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -342,7 +443,57 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Res Control";
 				SWIFT_OBJC_BRIDGING_HEADER = "Res Control/Res Control-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CDE86D0C25A26EDD007F7D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Res Control Launcher/Res_Control_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Res Control Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Control-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDE86D0D25A26EDD007F7D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Res Control Launcher/Res_Control_Launcher.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Res Control Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Control-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Res Control Launcher";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -364,6 +515,15 @@
 			buildConfigurations = (
 				CDC8B7F525A164E2004D11F9 /* Debug */,
 				CDC8B7F625A164E2004D11F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE86D0E25A26EDD007F7D28 /* Build configuration list for PBXNativeTarget "Res Control Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE86D0C25A26EDD007F7D28 /* Debug */,
+				CDE86D0D25A26EDD007F7D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Res_Switcher">
+            <connections>
+                <outlet property="menu" destination="uKb-bC-Sz1" id="CBT-oX-yjW"/>
+            </connections>
+        </customObject>
+        <customObject id="oTT-0k-1vp" userLabel="StartAtLoginController" customClass="StartAtLoginController">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="identifier" value="com.masonsoftware.Res-Switch-Launcher"/>
+            </userDefinedRuntimeAttributes>
+        </customObject>
+        <menu id="uKb-bC-Sz1">
+            <items>
+                <menuItem isSeparatorItem="YES" id="4Dm-wd-xmI"/>
+                <menuItem title="Start at Login" id="YGN-5z-koN">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <binding destination="oTT-0k-1vp" name="value" keyPath="startAtLogin" id="HQs-oo-Kd1"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Displays Preferences..." id="E2S-ww-HTf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="openDisplayPreferences:" target="Voe-Tx-rLC" id="CFf-99-aHG"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="bjr-kR-h9l"/>
+                <menuItem title="Quit" id="dI2-Iz-0V9">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-2" id="Bv5-Jw-9jY"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="Iih-ov-PaD"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="118"/>
+        </menu>
+    </objects>
+</document>

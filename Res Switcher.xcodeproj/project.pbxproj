@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD98F9A125A181B10073E222 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9A025A181B10073E222 /* DisplayMode.swift */; };
+		CD98F9B325A183A50073E222 /* DisplayModelMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */; };
+		CD98F9C225A18D930073E222 /* CGDirectDisplayID+IOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */; };
+		CD98F9F025A1A4720073E222 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9EF25A1A4720073E222 /* StartAtLoginController.m */; };
+		CD98FA0425A1A7160073E222 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD98FA0325A1A7160073E222 /* MainMenu.xib */; };
 		CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */; };
 		CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D325A164E1004D11F9 /* ViewController.swift */; };
 		CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D525A164E2004D11F9 /* Assets.xcassets */; };
-		CDC8B7D925A164E2004D11F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D725A164E2004D11F9 /* Main.storyboard */; };
 		CDC8B7E525A164E2004D11F9 /* Res_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */; };
 		CDC8B7F025A164E2004D11F9 /* Res_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */; };
 /* End PBXBuildFile section */
@@ -32,12 +36,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD98FA5425A1A9640073E222 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CD98F9A025A181B10073E222 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		CD98F9AD25A1836E0073E222 /* Res Switcher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Res Switcher-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayModelMenuItem.m; sourceTree = "<group>"; };
+		CD98F9BA25A184D20073E222 /* DisplayModelMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayModelMenuItem.h; sourceTree = "<group>"; };
+		CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGDirectDisplayID+IOService.swift"; sourceTree = "<group>"; };
+		CD98F9EE25A1A45D0073E222 /* StartAtLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartAtLoginController.h; sourceTree = "<group>"; };
+		CD98F9EF25A1A4720073E222 /* StartAtLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartAtLoginController.m; sourceTree = "<group>"; };
+		CD98FA0325A1A7160073E222 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC8B7D325A164E1004D11F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDC8B7D525A164E2004D11F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDC8B7D825A164E2004D11F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC8B7DA25A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Switcher.entitlements; sourceTree = "<group>"; };
 		CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Res SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD98FA1525A1A7FE0073E222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDC8B7C525A164E1004D11F9 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +111,7 @@
 				CDC8B7E325A164E2004D11F9 /* Res SwitcherTests */,
 				CDC8B7EE25A164E2004D11F9 /* Res SwitcherUITests */,
 				CDC8B7CF25A164E1004D11F9 /* Products */,
+				CD98FA1525A1A7FE0073E222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +131,16 @@
 				CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */,
 				CDC8B7D325A164E1004D11F9 /* ViewController.swift */,
 				CDC8B7D525A164E2004D11F9 /* Assets.xcassets */,
-				CDC8B7D725A164E2004D11F9 /* Main.storyboard */,
+				CD98FA0325A1A7160073E222 /* MainMenu.xib */,
 				CDC8B7DA25A164E2004D11F9 /* Info.plist */,
 				CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */,
+				CD98F9A025A181B10073E222 /* DisplayMode.swift */,
+				CD98F9AD25A1836E0073E222 /* Res Switcher-Bridging-Header.h */,
+				CD98F9BA25A184D20073E222 /* DisplayModelMenuItem.h */,
+				CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */,
+				CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */,
+				CD98F9EE25A1A45D0073E222 /* StartAtLoginController.h */,
+				CD98F9EF25A1A4720073E222 /* StartAtLoginController.m */,
 			);
 			path = "Res Switcher";
 			sourceTree = "<group>";
@@ -134,6 +173,7 @@
 				CDC8B7CA25A164E1004D11F9 /* Sources */,
 				CDC8B7CB25A164E1004D11F9 /* Frameworks */,
 				CDC8B7CC25A164E1004D11F9 /* Resources */,
+				CD98FA5425A1A9640073E222 /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
@@ -191,6 +231,7 @@
 				TargetAttributes = {
 					CDC8B7CD25A164E1004D11F9 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					CDC8B7DF25A164E2004D11F9 = {
 						CreatedOnToolsVersion = 12.3;
@@ -228,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */,
-				CDC8B7D925A164E2004D11F9 /* Main.storyboard in Resources */,
+				CD98FA0425A1A7160073E222 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD98F9B325A183A50073E222 /* DisplayModelMenuItem.m in Sources */,
+				CD98F9A125A181B10073E222 /* DisplayMode.swift in Sources */,
+				CD98F9C225A18D930073E222 /* CGDirectDisplayID+IOService.swift in Sources */,
 				CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */,
 				CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */,
+				CD98F9F025A1A4720073E222 /* StartAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +333,6 @@
 			targetProxy = CDC8B7EC25A164E2004D11F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CDC8B7D725A164E2004D11F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDC8B7D825A164E2004D11F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CDC8B7F225A164E2004D11F9 /* Debug */ = {
@@ -421,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -433,6 +468,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Res Switcher/Res Switcher-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -442,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -454,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Res Switcher/Res Switcher-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

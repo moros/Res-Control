@@ -15,26 +15,7 @@
 		CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */; };
 		CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D325A164E1004D11F9 /* ViewController.swift */; };
 		CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D525A164E2004D11F9 /* Assets.xcassets */; };
-		CDC8B7E525A164E2004D11F9 /* Res_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */; };
-		CDC8B7F025A164E2004D11F9 /* Res_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CDC8B7E125A164E2004D11F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CDC8B7C625A164E1004D11F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDC8B7CD25A164E1004D11F9;
-			remoteInfo = "Res Switcher";
-		};
-		CDC8B7EC25A164E2004D11F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CDC8B7C625A164E1004D11F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDC8B7CD25A164E1004D11F9;
-			remoteInfo = "Res Switcher";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CD98FA5425A1A9640073E222 /* Embed XPC Services */ = {
@@ -64,30 +45,10 @@
 		CDC8B7D525A164E2004D11F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC8B7DA25A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Switcher.entitlements; sourceTree = "<group>"; };
-		CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Res SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res_SwitcherTests.swift; sourceTree = "<group>"; };
-		CDC8B7E625A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Res SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res_SwitcherUITests.swift; sourceTree = "<group>"; };
-		CDC8B7F125A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CDC8B7CB25A164E1004D11F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8B7DD25A164E2004D11F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8B7E825A164E2004D11F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				CDC8B7D025A164E1004D11F9 /* Res Switcher */,
-				CDC8B7E325A164E2004D11F9 /* Res SwitcherTests */,
-				CDC8B7EE25A164E2004D11F9 /* Res SwitcherUITests */,
 				CDC8B7CF25A164E1004D11F9 /* Products */,
 				CD98FA1525A1A7FE0073E222 /* Frameworks */,
 			);
@@ -119,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */,
-				CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */,
-				CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,24 +102,6 @@
 			path = "Res Switcher";
 			sourceTree = "<group>";
 		};
-		CDC8B7E325A164E2004D11F9 /* Res SwitcherTests */ = {
-			isa = PBXGroup;
-			children = (
-				CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */,
-				CDC8B7E625A164E2004D11F9 /* Info.plist */,
-			);
-			path = "Res SwitcherTests";
-			sourceTree = "<group>";
-		};
-		CDC8B7EE25A164E2004D11F9 /* Res SwitcherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */,
-				CDC8B7F125A164E2004D11F9 /* Info.plist */,
-			);
-			path = "Res SwitcherUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,42 +123,6 @@
 			productReference = CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CDC8B7DF25A164E2004D11F9 /* Res SwitcherTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CDC8B7F725A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherTests" */;
-			buildPhases = (
-				CDC8B7DC25A164E2004D11F9 /* Sources */,
-				CDC8B7DD25A164E2004D11F9 /* Frameworks */,
-				CDC8B7DE25A164E2004D11F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CDC8B7E225A164E2004D11F9 /* PBXTargetDependency */,
-			);
-			name = "Res SwitcherTests";
-			productName = "Res SwitcherTests";
-			productReference = CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CDC8B7EA25A164E2004D11F9 /* Res SwitcherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CDC8B7FA25A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherUITests" */;
-			buildPhases = (
-				CDC8B7E725A164E2004D11F9 /* Sources */,
-				CDC8B7E825A164E2004D11F9 /* Frameworks */,
-				CDC8B7E925A164E2004D11F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CDC8B7ED25A164E2004D11F9 /* PBXTargetDependency */,
-			);
-			name = "Res SwitcherUITests";
-			productName = "Res SwitcherUITests";
-			productReference = CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,14 +135,6 @@
 					CDC8B7CD25A164E1004D11F9 = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1230;
-					};
-					CDC8B7DF25A164E2004D11F9 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = CDC8B7CD25A164E1004D11F9;
-					};
-					CDC8B7EA25A164E2004D11F9 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = CDC8B7CD25A164E1004D11F9;
 					};
 				};
 			};
@@ -257,8 +152,6 @@
 			projectRoot = "";
 			targets = (
 				CDC8B7CD25A164E1004D11F9 /* Res Switcher */,
-				CDC8B7DF25A164E2004D11F9 /* Res SwitcherTests */,
-				CDC8B7EA25A164E2004D11F9 /* Res SwitcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,20 +163,6 @@
 			files = (
 				CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */,
 				CD98FA0425A1A7160073E222 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8B7DE25A164E2004D11F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8B7E925A164E2004D11F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,36 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDC8B7DC25A164E2004D11F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDC8B7E525A164E2004D11F9 /* Res_SwitcherTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8B7E725A164E2004D11F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDC8B7F025A164E2004D11F9 /* Res_SwitcherUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CDC8B7E225A164E2004D11F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CDC8B7CD25A164E1004D11F9 /* Res Switcher */;
-			targetProxy = CDC8B7E125A164E2004D11F9 /* PBXContainerItemProxy */;
-		};
-		CDC8B7ED25A164E2004D11F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CDC8B7CD25A164E1004D11F9 /* Res Switcher */;
-			targetProxy = CDC8B7EC25A164E2004D11F9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CDC8B7F225A164E2004D11F9 /* Debug */ = {
@@ -497,90 +347,6 @@
 			};
 			name = Release;
 		};
-		CDC8B7F825A164E2004D11F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K3569JFML;
-				INFOPLIST_FILE = "Res SwitcherTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Res Switcher.app/Contents/MacOS/Res Switcher";
-			};
-			name = Debug;
-		};
-		CDC8B7F925A164E2004D11F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K3569JFML;
-				INFOPLIST_FILE = "Res SwitcherTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Res Switcher.app/Contents/MacOS/Res Switcher";
-			};
-			name = Release;
-		};
-		CDC8B7FB25A164E2004D11F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K3569JFML;
-				INFOPLIST_FILE = "Res SwitcherUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Res Switcher";
-			};
-			name = Debug;
-		};
-		CDC8B7FC25A164E2004D11F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3K3569JFML;
-				INFOPLIST_FILE = "Res SwitcherUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Res Switcher";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -598,24 +364,6 @@
 			buildConfigurations = (
 				CDC8B7F525A164E2004D11F9 /* Debug */,
 				CDC8B7F625A164E2004D11F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDC8B7F725A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CDC8B7F825A164E2004D11F9 /* Debug */,
-				CDC8B7F925A164E2004D11F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDC8B7FA25A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CDC8B7FB25A164E2004D11F9 /* Debug */,
-				CDC8B7FC25A164E2004D11F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

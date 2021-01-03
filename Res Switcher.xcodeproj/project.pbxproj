@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */; };
+		CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D325A164E1004D11F9 /* ViewController.swift */; };
+		CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D525A164E2004D11F9 /* Assets.xcassets */; };
+		CDC8B7D925A164E2004D11F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D725A164E2004D11F9 /* Main.storyboard */; };
+		CDC8B7E525A164E2004D11F9 /* Res_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */; };
+		CDC8B7F025A164E2004D11F9 /* Res_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC8B7E125A164E2004D11F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC8B7C625A164E1004D11F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC8B7CD25A164E1004D11F9;
+			remoteInfo = "Res Switcher";
+		};
+		CDC8B7EC25A164E2004D11F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC8B7C625A164E1004D11F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC8B7CD25A164E1004D11F9;
+			remoteInfo = "Res Switcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC8B7D325A164E1004D11F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC8B7D525A164E2004D11F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC8B7D825A164E2004D11F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC8B7DA25A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Switcher.entitlements; sourceTree = "<group>"; };
+		CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Res SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res_SwitcherTests.swift; sourceTree = "<group>"; };
+		CDC8B7E625A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Res SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res_SwitcherUITests.swift; sourceTree = "<group>"; };
+		CDC8B7F125A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC8B7CB25A164E1004D11F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7DD25A164E2004D11F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7E825A164E2004D11F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC8B7C525A164E1004D11F9 = {
+			isa = PBXGroup;
+			children = (
+				CDC8B7D025A164E1004D11F9 /* Res Switcher */,
+				CDC8B7E325A164E2004D11F9 /* Res SwitcherTests */,
+				CDC8B7EE25A164E2004D11F9 /* Res SwitcherUITests */,
+				CDC8B7CF25A164E1004D11F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC8B7CF25A164E1004D11F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */,
+				CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */,
+				CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC8B7D025A164E1004D11F9 /* Res Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */,
+				CDC8B7D325A164E1004D11F9 /* ViewController.swift */,
+				CDC8B7D525A164E2004D11F9 /* Assets.xcassets */,
+				CDC8B7D725A164E2004D11F9 /* Main.storyboard */,
+				CDC8B7DA25A164E2004D11F9 /* Info.plist */,
+				CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */,
+			);
+			path = "Res Switcher";
+			sourceTree = "<group>";
+		};
+		CDC8B7E325A164E2004D11F9 /* Res SwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8B7E425A164E2004D11F9 /* Res_SwitcherTests.swift */,
+				CDC8B7E625A164E2004D11F9 /* Info.plist */,
+			);
+			path = "Res SwitcherTests";
+			sourceTree = "<group>";
+		};
+		CDC8B7EE25A164E2004D11F9 /* Res SwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8B7EF25A164E2004D11F9 /* Res_SwitcherUITests.swift */,
+				CDC8B7F125A164E2004D11F9 /* Info.plist */,
+			);
+			path = "Res SwitcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC8B7CD25A164E1004D11F9 /* Res Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Switcher" */;
+			buildPhases = (
+				CDC8B7CA25A164E1004D11F9 /* Sources */,
+				CDC8B7CB25A164E1004D11F9 /* Frameworks */,
+				CDC8B7CC25A164E1004D11F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Res Switcher";
+			productName = "Res Switcher";
+			productReference = CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC8B7DF25A164E2004D11F9 /* Res SwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC8B7F725A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherTests" */;
+			buildPhases = (
+				CDC8B7DC25A164E2004D11F9 /* Sources */,
+				CDC8B7DD25A164E2004D11F9 /* Frameworks */,
+				CDC8B7DE25A164E2004D11F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC8B7E225A164E2004D11F9 /* PBXTargetDependency */,
+			);
+			name = "Res SwitcherTests";
+			productName = "Res SwitcherTests";
+			productReference = CDC8B7E025A164E2004D11F9 /* Res SwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDC8B7EA25A164E2004D11F9 /* Res SwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC8B7FA25A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherUITests" */;
+			buildPhases = (
+				CDC8B7E725A164E2004D11F9 /* Sources */,
+				CDC8B7E825A164E2004D11F9 /* Frameworks */,
+				CDC8B7E925A164E2004D11F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC8B7ED25A164E2004D11F9 /* PBXTargetDependency */,
+			);
+			name = "Res SwitcherUITests";
+			productName = "Res SwitcherUITests";
+			productReference = CDC8B7EB25A164E2004D11F9 /* Res SwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC8B7C625A164E1004D11F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CDC8B7CD25A164E1004D11F9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CDC8B7DF25A164E2004D11F9 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CDC8B7CD25A164E1004D11F9;
+					};
+					CDC8B7EA25A164E2004D11F9 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CDC8B7CD25A164E1004D11F9;
+					};
+				};
+			};
+			buildConfigurationList = CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Switcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC8B7C525A164E1004D11F9;
+			productRefGroup = CDC8B7CF25A164E1004D11F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC8B7CD25A164E1004D11F9 /* Res Switcher */,
+				CDC8B7DF25A164E2004D11F9 /* Res SwitcherTests */,
+				CDC8B7EA25A164E2004D11F9 /* Res SwitcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC8B7CC25A164E1004D11F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */,
+				CDC8B7D925A164E2004D11F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7DE25A164E2004D11F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7E925A164E2004D11F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC8B7CA25A164E1004D11F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */,
+				CDC8B7D225A164E1004D11F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7DC25A164E2004D11F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC8B7E525A164E2004D11F9 /* Res_SwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC8B7E725A164E2004D11F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC8B7F025A164E2004D11F9 /* Res_SwitcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC8B7E225A164E2004D11F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC8B7CD25A164E1004D11F9 /* Res Switcher */;
+			targetProxy = CDC8B7E125A164E2004D11F9 /* PBXContainerItemProxy */;
+		};
+		CDC8B7ED25A164E2004D11F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC8B7CD25A164E1004D11F9 /* Res Switcher */;
+			targetProxy = CDC8B7EC25A164E2004D11F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC8B7D725A164E2004D11F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC8B7D825A164E2004D11F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC8B7F225A164E2004D11F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC8B7F325A164E2004D11F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDC8B7F525A164E2004D11F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Res Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDC8B7F625A164E2004D11F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Res Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CDC8B7F825A164E2004D11F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				INFOPLIST_FILE = "Res SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Res Switcher.app/Contents/MacOS/Res Switcher";
+			};
+			name = Debug;
+		};
+		CDC8B7F925A164E2004D11F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				INFOPLIST_FILE = "Res SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Res Switcher.app/Contents/MacOS/Res Switcher";
+			};
+			name = Release;
+		};
+		CDC8B7FB25A164E2004D11F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				INFOPLIST_FILE = "Res SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Res Switcher";
+			};
+			name = Debug;
+		};
+		CDC8B7FC25A164E2004D11F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3K3569JFML;
+				INFOPLIST_FILE = "Res SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Res Switcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC8B7F225A164E2004D11F9 /* Debug */,
+				CDC8B7F325A164E2004D11F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC8B7F525A164E2004D11F9 /* Debug */,
+				CDC8B7F625A164E2004D11F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC8B7F725A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC8B7F825A164E2004D11F9 /* Debug */,
+				CDC8B7F925A164E2004D11F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC8B7FA25A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res SwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC8B7FB25A164E2004D11F9 /* Debug */,
+				CDC8B7FC25A164E2004D11F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC8B7C625A164E1004D11F9 /* Project object */;
+}

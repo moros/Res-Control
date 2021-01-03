@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-               BuildableName = "Res Switcher.app"
-               BlueprintName = "Res Switcher"
-               ReferencedContainer = "container:Res Switcher.xcodeproj">
+               BuildableName = "Res Control.app"
+               BlueprintName = "Res Control"
+               ReferencedContainer = "container:Res Control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CDC8B7DF25A164E2004D11F9"
                BuildableName = "Res SwitcherTests.xctest"
                BlueprintName = "Res SwitcherTests"
-               ReferencedContainer = "container:Res Switcher.xcodeproj">
+               ReferencedContainer = "container:Res Control.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "CDC8B7EA25A164E2004D11F9"
                BuildableName = "Res SwitcherUITests.xctest"
                BlueprintName = "Res SwitcherUITests"
-               ReferencedContainer = "container:Res Switcher.xcodeproj">
+               ReferencedContainer = "container:Res Control.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-            BuildableName = "Res Switcher.app"
-            BlueprintName = "Res Switcher"
-            ReferencedContainer = "container:Res Switcher.xcodeproj">
+            BuildableName = "Res Control.app"
+            BlueprintName = "Res Control"
+            ReferencedContainer = "container:Res Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CDC8B7CD25A164E1004D11F9"
-            BuildableName = "Res Switcher.app"
-            BlueprintName = "Res Switcher"
-            ReferencedContainer = "container:Res Switcher.xcodeproj">
+            BuildableName = "Res Control.app"
+            BlueprintName = "Res Control"
+            ReferencedContainer = "container:Res Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -32,19 +32,19 @@
 
 /* Begin PBXFileReference section */
 		CD98F9A025A181B10073E222 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
-		CD98F9AD25A1836E0073E222 /* Res Switcher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Res Switcher-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD98F9AD25A1836E0073E222 /* Res Control-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Res Control-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayModelMenuItem.m; sourceTree = "<group>"; };
 		CD98F9BA25A184D20073E222 /* DisplayModelMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayModelMenuItem.h; sourceTree = "<group>"; };
 		CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGDirectDisplayID+IOService.swift"; sourceTree = "<group>"; };
 		CD98F9EE25A1A45D0073E222 /* StartAtLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartAtLoginController.h; sourceTree = "<group>"; };
 		CD98F9EF25A1A4720073E222 /* StartAtLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartAtLoginController.m; sourceTree = "<group>"; };
 		CD98FA0325A1A7160073E222 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC8B7CE25A164E1004D11F9 /* Res Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC8B7D325A164E1004D11F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDC8B7D525A164E2004D11F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC8B7DA25A164E2004D11F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Switcher.entitlements; sourceTree = "<group>"; };
+		CDC8B7DB25A164E2004D11F9 /* Res_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Control.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		CDC8B7C525A164E1004D11F9 = {
 			isa = PBXGroup;
 			children = (
-				CDC8B7D025A164E1004D11F9 /* Res Switcher */,
+				CDC8B7D025A164E1004D11F9 /* Res Control */,
 				CDC8B7CF25A164E1004D11F9 /* Products */,
 				CD98FA1525A1A7FE0073E222 /* Frameworks */,
 			);
@@ -77,12 +77,12 @@
 		CDC8B7CF25A164E1004D11F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */,
+				CDC8B7CE25A164E1004D11F9 /* Res Control.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDC8B7D025A164E1004D11F9 /* Res Switcher */ = {
+		CDC8B7D025A164E1004D11F9 /* Res Control */ = {
 			isa = PBXGroup;
 			children = (
 				CDC8B7D125A164E1004D11F9 /* AppDelegate.swift */,
@@ -90,24 +90,24 @@
 				CDC8B7D525A164E2004D11F9 /* Assets.xcassets */,
 				CD98FA0325A1A7160073E222 /* MainMenu.xib */,
 				CDC8B7DA25A164E2004D11F9 /* Info.plist */,
-				CDC8B7DB25A164E2004D11F9 /* Res_Switcher.entitlements */,
+				CDC8B7DB25A164E2004D11F9 /* Res_Control.entitlements */,
 				CD98F9A025A181B10073E222 /* DisplayMode.swift */,
-				CD98F9AD25A1836E0073E222 /* Res Switcher-Bridging-Header.h */,
+				CD98F9AD25A1836E0073E222 /* Res Control-Bridging-Header.h */,
 				CD98F9BA25A184D20073E222 /* DisplayModelMenuItem.h */,
 				CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */,
 				CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */,
 				CD98F9EE25A1A45D0073E222 /* StartAtLoginController.h */,
 				CD98F9EF25A1A4720073E222 /* StartAtLoginController.m */,
 			);
-			path = "Res Switcher";
+			path = "Res Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDC8B7CD25A164E1004D11F9 /* Res Switcher */ = {
+		CDC8B7CD25A164E1004D11F9 /* Res Control */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Switcher" */;
+			buildConfigurationList = CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Control" */;
 			buildPhases = (
 				CDC8B7CA25A164E1004D11F9 /* Sources */,
 				CDC8B7CB25A164E1004D11F9 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = "Res Switcher";
+			name = "Res Control";
 			productName = "Res Switcher";
-			productReference = CDC8B7CE25A164E1004D11F9 /* Res Switcher.app */;
+			productReference = CDC8B7CE25A164E1004D11F9 /* Res Control.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Switcher" */;
+			buildConfigurationList = CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Control" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDC8B7CD25A164E1004D11F9 /* Res Switcher */,
+				CDC8B7CD25A164E1004D11F9 /* Res Control */,
 			);
 		};
 /* End PBXProject section */
@@ -306,19 +306,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Res Control/Res_Control.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3K3569JFML;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Res Switcher/Info.plist";
+				INFOPLIST_FILE = "Res Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Res Switcher/Res Switcher-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Res Control/Res Control-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -330,19 +330,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Res Switcher/Res_Switcher.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Res Control/Res_Control.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3K3569JFML;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Res Switcher/Info.plist";
+				INFOPLIST_FILE = "Res Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Switcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masonsoftware.Res-Control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Res Switcher/Res Switcher-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Res Control/Res Control-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Switcher" */ = {
+		CDC8B7C925A164E1004D11F9 /* Build configuration list for PBXProject "Res Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDC8B7F225A164E2004D11F9 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Switcher" */ = {
+		CDC8B7F425A164E2004D11F9 /* Build configuration list for PBXNativeTarget "Res Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDC8B7F525A164E2004D11F9 /* Debug */,

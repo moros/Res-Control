@@ -29,7 +29,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             let url = URL(fileURLWithPath: newPath, isDirectory: true)
             NSWorkspace.shared.openApplication(at: url, configuration: NSWorkspace.OpenConfiguration(), completionHandler: nil)
-            NSApplication.shared.hide(nil)
         }
+        
+        NSApplication.shared.hide(nil)
     }
 }

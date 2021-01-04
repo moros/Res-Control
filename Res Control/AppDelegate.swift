@@ -7,6 +7,7 @@
 
 import Cocoa
 import IOKit
+import ServiceManagement
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
@@ -21,6 +22,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         self.statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         self.statusItem?.button?.image = itemImage
         self.statusItem?.menu = self.menu
+        
+        let launcherAppId = "com.masonsoftware.Res-Control"
+        SMLoginItemSetEnabled(launcherAppId as CFString, true)
     }
     
     deinit {

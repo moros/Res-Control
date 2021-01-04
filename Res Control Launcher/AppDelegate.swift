@@ -8,31 +8,28 @@
 import Cocoa
 
 @main
-class AppDelegate: NSObject {
-    @objc func terminate() {
-        NSApp.terminate(nil)
-    }
-}
-
-extension AppDelegate: NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         let mainAppIdentifier = "com.masonsoftware.Res-Control"
         let runningApps = NSWorkspace.shared.runningApplications
-        let isRunning = runningApps.filter {
+        let isRunning = runningApps.contains {
             $0.bundleIdentifier == mainAppIdentifier
-        }.isEmpty
+        }
         
         if !isRunning {
             let path = Bundle.main.bundlePath as NSString
+            
             var components = path.pathComponents
             components.removeLast()
             components.removeLast()
             components.removeLast()
-            components.append("MacOS")
-            components.append("Res Control")
+            components.removeLast()
             
             let newPath = NSString.path(withComponents: components)
-            NSWorkspace.shared.launchApplication(newPath)
+            
+            let url = URL(fileURLWithPath: newPath, isDirectory: true)
+            NSWorkspace.shared.openApplication(at: url, configuration: NSWorkspace.OpenConfiguration(), completionHandler: nil)
+            NSApplication.shared.hide(nil)
         }
     }
 }

@@ -18,7 +18,7 @@
         </customObject>
         <customObject id="oTT-0k-1vp" userLabel="StartAtLoginController" customClass="StartAtLoginController">
             <userDefinedRuntimeAttributes>
-                <userDefinedRuntimeAttribute type="string" keyPath="identifier" value="com.masonsoftware.Res-Switch-Launcher"/>
+                <userDefinedRuntimeAttribute type="string" keyPath="identifier" value="com.masonsoftware.Res-Control-Launcher"/>
             </userDefinedRuntimeAttributes>
         </customObject>
         <menu id="uKb-bC-Sz1">

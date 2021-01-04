@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD50D8A725A2A75D00BF980F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD50D8A525A2A75D00BF980F /* MainMenu.xib */; };
 		CD98F9A125A181B10073E222 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9A025A181B10073E222 /* DisplayMode.swift */; };
 		CD98F9B325A183A50073E222 /* DisplayModelMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */; };
 		CD98F9C225A18D930073E222 /* CGDirectDisplayID+IOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD98F9C125A18D930073E222 /* CGDirectDisplayID+IOService.swift */; };
@@ -16,7 +17,6 @@
 		CDC8B7D425A164E1004D11F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8B7D325A164E1004D11F9 /* ViewController.swift */; };
 		CDC8B7D625A164E2004D11F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8B7D525A164E2004D11F9 /* Assets.xcassets */; };
 		CDE86D0625A26EDD007F7D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE86D0525A26EDD007F7D28 /* Assets.xcassets */; };
-		CDE86D0925A26EDD007F7D28 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE86D0725A26EDD007F7D28 /* MainMenu.xib */; };
 		CDE86D1225A26F04007F7D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE86D1125A26F04007F7D28 /* AppDelegate.swift */; };
 		CDE86D1925A26F89007F7D28 /* Res Control Launcher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CDE86D1D25A26FA1007F7D28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE86D1C25A26FA1007F7D28 /* Cocoa.framework */; };
@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD50D8A625A2A75D00BF980F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD98F9A025A181B10073E222 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		CD98F9AD25A1836E0073E222 /* Res Control-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Res Control-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD98F9B225A183A50073E222 /* DisplayModelMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayModelMenuItem.m; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		CDC8B7DB25A164E2004D11F9 /* Res_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Control.entitlements; sourceTree = "<group>"; };
 		CDE86D0125A26EDC007F7D28 /* Res Control Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Res Control Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE86D0525A26EDD007F7D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDE86D0825A26EDD007F7D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CDE86D0A25A26EDD007F7D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDE86D0B25A26EDD007F7D28 /* Res_Control_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Res_Control_Launcher.entitlements; sourceTree = "<group>"; };
 		CDE86D1125A26F04007F7D28 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 			children = (
 				CDE86D1125A26F04007F7D28 /* AppDelegate.swift */,
 				CDE86D0525A26EDD007F7D28 /* Assets.xcassets */,
-				CDE86D0725A26EDD007F7D28 /* MainMenu.xib */,
+				CD50D8A525A2A75D00BF980F /* MainMenu.xib */,
 				CDE86D0A25A26EDD007F7D28 /* Info.plist */,
 				CDE86D0B25A26EDD007F7D28 /* Res_Control_Launcher.entitlements */,
 			);
@@ -243,7 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE86D0625A26EDD007F7D28 /* Assets.xcassets in Resources */,
-				CDE86D0925A26EDD007F7D28 /* MainMenu.xib in Resources */,
+				CD50D8A725A2A75D00BF980F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +274,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDE86D0725A26EDD007F7D28 /* MainMenu.xib */ = {
+		CD50D8A525A2A75D00BF980F /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDE86D0825A26EDD007F7D28 /* Base */,
+				CD50D8A625A2A75D00BF980F /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
